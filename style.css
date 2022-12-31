@@ -8,9 +8,9 @@
 }
 
 body{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
     margin: auto;
     min-height: 100vh;
     background: #333;
