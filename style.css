@@ -8,13 +8,30 @@
 }
 
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column; */
+    margin: auto;
     min-height: 100vh;
     background: #333;
 }
-
+h3{
+    text-align: center;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 .box{
     position: relative;
     height: 200px;
