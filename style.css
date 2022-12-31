@@ -20,6 +20,14 @@ h3{
     text-align: center;
     margin-top: 25px;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: #888;
+}
 .container{
     position: absolute;
     top: 50%;
